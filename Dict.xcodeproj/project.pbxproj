@@ -13,6 +13,7 @@
 		829ECD2A1582A1D1003E4A83 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 829ECD281582A1D1003E4A83 /* Credits.rtf */; };
 		829ECD2D1582A1D1003E4A83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 829ECD2C1582A1D1003E4A83 /* AppDelegate.m */; };
 		829ECD301582A1D1003E4A83 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829ECD2E1582A1D1003E4A83 /* MainMenu.xib */; };
+		829ECD3B1582A553003E4A83 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829ECD3A1582A553003E4A83 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,15 @@
 		829ECD1C1582A1D1003E4A83 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		829ECD1D1582A1D1003E4A83 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		829ECD1E1582A1D1003E4A83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		829ECD211582A1D1003E4A83 /* Dict-Info.plist */ = {isa = PBXFileReference; path = "Dict-Info.plist"; sourceTree = "<group>"; };
+		829ECD211582A1D1003E4A83 /* Dict-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dict-Info.plist"; sourceTree = "<group>"; };
 		829ECD231582A1D1003E4A83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		829ECD251582A1D1003E4A83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		829ECD271582A1D1003E4A83 /* Dict-Prefix.pch */ = {isa = PBXFileReference; path = "Dict-Prefix.pch"; sourceTree = "<group>"; };
+		829ECD271582A1D1003E4A83 /* Dict-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dict-Prefix.pch"; sourceTree = "<group>"; };
 		829ECD291582A1D1003E4A83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		829ECD2B1582A1D1003E4A83 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		829ECD2B1582A1D1003E4A83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		829ECD2C1582A1D1003E4A83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		829ECD2F1582A1D1003E4A83 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		829ECD3A1582A553003E4A83 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829ECD3B1582A553003E4A83 /* WebKit.framework in Frameworks */,
 				829ECD1A1582A1D1003E4A83 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +66,7 @@
 		829ECD181582A1D1003E4A83 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				829ECD3A1582A553003E4A83 /* WebKit.framework */,
 				829ECD191582A1D1003E4A83 /* Cocoa.framework */,
 				829ECD1B1582A1D1003E4A83 /* Other Frameworks */,
 			);
